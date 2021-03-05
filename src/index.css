@@ -1,10 +1,11 @@
-#root,html,body{
+html{
     height: 100vh;
 }
 
 body{
     margin: 0;
     background-color: whitesmoke;
+    font-family: 'Baloo 2', cursive;
 }
 
 *{

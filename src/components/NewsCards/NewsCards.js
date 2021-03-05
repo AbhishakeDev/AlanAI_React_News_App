@@ -35,9 +35,7 @@ const NewsCards = ({ articles, activeArticle }) => {
                             </Grid>
                         ))}
                     </Grid>
-                </Grow><footer className={classes.footer}>
-                    Created By : <h4 className={classes.link}> Abhishek Tripathi</h4>
-                </footer>
+                </Grow>
             </>
         )
     }

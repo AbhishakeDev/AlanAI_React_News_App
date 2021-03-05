@@ -9,11 +9,54 @@
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
   <title>React App</title>
+  <style>
+    .footer {
+      width: 100%;
+      margin-top: 2rem;
+      font-family: 'Baloo 2', cursive;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .copyright {
+      font-size: 1rem;
+      color: #000;
+      margin-bottom: .3rem;
+      width: 100%;
+      text-align: center;
+    }
+
+    .social-media {
+      width: 100%;
+      display: flex;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #000;
+      justify-content: center;
+      gap: 3rem;
+    }
+  </style>
 </head>
 
 <body>
   <div id="root"></div>
 </body>
+<footer class="footer">
+  <div class="copyright">
+    <p>Created By Abhishek &copy; All Rights Reserved</p>
+  </div>
+  <div class="social-media">
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-twitter-square"></i>
+    <i class="fab fa-instagram-square"></i>
+  </div>
+</footer>
 
 </html>
